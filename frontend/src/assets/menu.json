@@ -1,0 +1,165 @@
+[
+    {
+        "title": "Status",
+        "icon": "status",
+        "href": "/status",
+        "child": [
+            {
+                "href": "/status/device_info",
+                "title": "Device Info"
+            },
+            {
+                "href": "/status/net_info",
+                "title": "Net Info"
+            },
+            {
+                "href": "/status/user_info",
+                "title": "User Info"
+            },
+            {
+                "href": "/status/voip_info",
+                "title": "VoIP Info"
+            },
+            {
+                "href": "/status/cwmp_status",
+                "title": "CWMP Status"
+            }
+        ]
+    },
+    {
+        "title": "Net",
+        "href": "/net",
+        "icon": "net",
+        "child": [
+            {
+                "href": "/net/wan",
+                "title": "WAN"
+            },
+            {
+                "href": "/net/binding",
+                "title": "Binding"
+            },
+            {
+                "href": "/net/lan",
+                "title": "LAN"
+            },
+            {
+                "href": "/net/wlan",
+                "title": "WLAN"
+            },
+            {
+                "href": "/net/cwmp",
+                "title": "CWMP"
+            },
+            {
+                "href": "/net/qos",
+                "title": "QoS"
+            },
+            {
+                "href": "/net/time",
+                "title": "Time"
+            },
+            {
+                "href": "/net/route",
+                "title": "Route"
+            }
+        ]
+    },
+    {
+        "title": "Security",
+        "icon": "security",
+        "href": "/security",
+        "child": [
+            {
+                "href": "/security/wan_setting",
+                "title": "WAN Settings"
+            },
+            {
+                "href": "/security/firewall",
+                "title": "Firewall"
+            },
+            {
+                "href": "/security/mac_filter",
+                "title": "MAC Filter"
+            },
+            {
+                "href": "/security/port_filter",
+                "title": "PORT Filter"
+            }
+        ]
+    },
+    {
+        "title": "APP",
+        "icon": "app",
+        "href": "/app",
+        "child": [
+            {
+                "href": "/app/ddns",
+                "title": "DDNS"
+            },
+            {
+                "href": "/app/advanced_nat",
+                "title": "Advanced NAT"
+            },
+            {
+                "href": "/app/upnv",
+                "title": "UPNV"
+            },
+            {
+                "href": "/app/voip_setup",
+                "title": "VoIP Setup"
+            },
+            {
+                "href": "/app/igmp",
+                "title": "IGMP/MLD"
+            },
+            {
+                "href": "/app/daily_app",
+                "title": "Daily App"
+            }
+        ]
+    },
+    {
+        "title": "Manage",
+        "icon": "manage",
+        "href": "/manage",
+        "child": [
+            {
+                "href": "/manage/user_mgmt",
+                "title": "User Management"
+            },
+            {
+                "href": "/manage/device_mgmt",
+                "title": "Device Management"
+            },
+            {
+                "href": "/manage/log_mgmt",
+                "title": "Log Management"
+            },
+            {
+                "href": "/manage/security_mgmt",
+                "title": "Security Management"
+            }
+        ]
+    },
+    {
+        "title": "Diagnose",
+        "icon": "diagnose",
+        "href": "/diag",
+        "child": [
+            {
+                "href": "/diag/internet_diag",
+                "title": "Internet Diagnose"
+            },
+            {
+                "href": "/diag/service_diag",
+                "title": "Service Diagnose"
+            }
+        ]
+    },
+    {
+        "title": "Help",
+        "icon": "help",
+        "href": "/help"
+    }
+]

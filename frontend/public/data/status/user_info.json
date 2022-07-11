@@ -1,0 +1,93 @@
+{
+    "status": 1,
+    "message": "",
+    "data": {
+        "wlan": {
+            "network_connection_status": "Enabled",
+            "channel": 8,
+            "interface": {
+                "name": "wireless",
+                "sent": {
+                    "byte": 1251,
+                    "error": 54211,
+                    "package": 1400,
+                    "abandon": 100
+                },
+                "received": {
+                    "byte": 100,
+                    "error": 1200,
+                    "package": 41440,
+                    "abandon": 80
+                }
+            },
+            "ssids": [
+                {
+                    "index": 1,
+                    "name": "GNXS-1497E8",
+                    "security_configuration": "Configured ",
+                    "auth_method": "WPAPSKWPA2PSK",
+                    "encryption": "TKIPAES"
+                },
+                {
+                    "index": 2,
+                    "name": "GenexisAP",
+                    "security_configuration": "Configured ",
+                    "auth_method": "WPAPSKWPA2PSK",
+                    "encryption": "TKIPAES"
+                },
+                {
+                    "index": 3,
+                    "name": "GenexisAP3",
+                    "security_configuration": "Configured ",
+                    "auth_method": "WPAPSKWPA2PSK",
+                    "encryption": "TKIPAES"
+                },
+                {
+                    "index": 4,
+                    "name": "GenexisAP4",
+                    "security_configuration": "Configured ",
+                    "auth_method": "WPAPSKWPA2PSK",
+                    "encryption": "TKIPAES"
+                }
+            ]
+        },
+        "ethernet": {
+            "ip_address": "192.168.5.1",
+            "ipv6_address": "fe80::1",
+            "mac_address": "BC:62:D2:14:97:E8",
+            "fe": "Unconnected",
+            "ge": "Unconnected",
+            "device": [
+                {
+                    "name": "Computer",
+                    "ip_address": "192.168.5.5",
+                    "mac_address": "30:24:a9:7c:35:15",
+                    "status": "Static allocating",
+                    "device_type": "FE"
+                },
+                {
+                    "name": "Computer",
+                    "ip_address": "192.168.5.6",
+                    "mac_address": "30:24:a9:7c:35:15",
+                    "status": "Static allocating",
+                    "device_type": "FE"
+                }
+            ],
+            "interface": {
+                "name": "Ethernet",
+                "sent": {
+                    "byte": 0,
+                    "error": 0,
+                    "package": 0,
+                    "abandon": 0
+                },
+                "received": {
+                    "byte": 0,
+                    "error": 0,
+                    "package": 0,
+                    "abandon": 0
+                }
+            }
+        }
+    }
+}

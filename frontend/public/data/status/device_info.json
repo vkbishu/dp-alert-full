@@ -1,0 +1,13 @@
+{
+    "status": 1,
+    "data": {
+        "gateway_name": "Home Gateway",
+        "model_no": "Platinum-4410",
+        "device_serial_no": "9SKWK-AEQ-SDF-2SFS-3GCVS",
+        "SW_release_no": "23ADAXFAS-111",
+        "hardware_version": "2.33",
+        "device_2G_SSID": [],
+        "firmware_time": "10th Dec 21 05:30 AM"
+    },
+    "message": "success"
+}

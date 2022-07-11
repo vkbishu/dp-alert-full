@@ -1,0 +1,152 @@
+/* import the necessary Bootstrap files */
+// Required
+//@import "~bootstrap/scss/functions";
+$primary: #ff1a40;
+$secondary: #858687;
+$success: #0fc009;
+$warning: #f78609;
+
+// bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+.btn-primary {
+    color: #fff;
+    &:hover,&:focus {
+        color: #fff;
+    }
+}
+
+body {
+    background: #fafafa;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.input-group {
+    // input.form-control {
+    //     border-right: 0;
+    // }
+    .input-group-text {
+        background-color: white;
+        //border-left: 0;
+        padding-top: 10px;
+    }
+    i.fa {
+        font-size: 26px;
+        color: #b5b7b9;
+    }
+}
+.form-control:not(.form-control-lg) {
+    font-size: 13px;
+    padding: 10px;
+    height: auto;
+}
+
+.btn-site {
+    color: #fff;
+    background-color: $primary;
+    border-color: $primary;
+    font-weight: bold;
+
+    &:hover {
+        color: #fff;
+        background-color: $primary;
+        border-color: $primary;
+    }
+}
+
+.heading-main{
+    font-weight: bold;
+    color: #584848;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.heading_grey {
+    font-weight: 300;
+    color: $primary;
+    font-size: 30px;
+    padding: 0px 12px;
+    margin: 0px;
+}
+
+.heading_margin {
+    margin-bottom: 1.5rem;
+}
+
+.white_box {
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 0px 6px rgb(0 0 0 / 10%);
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.border_box [class^="col-"] {
+    padding: 20px;
+    box-shadow: 1px 0 0 0 #ced4da, 0 1px 0 0 #ced4da, 1px 1px 0 0 #ced4da, 1px 0 0 0 #ced4da inset, 0 1px 0 0 #ced4da inset;
+}
+
+.bg_heading {
+    color: #61656e;
+    background: #dfe1e4;
+    padding: 15px !important;
+    margin: 0px;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.border_box h4 {
+    font-size: 1rem;
+    margin: 0px;
+    font-weight: normal;
+}
+
+/* Table */ 
+.table th {
+    background: #dfe1e4;
+    color: #584848;
+    border-color: #ced4da;
+}
+
+
+/* Card */
+.card-header {
+    background-color: #3f4c61;
+    color: white;
+    border-color: #3f4c61;
+    font-weight: 500;
+}
+
+.btn-min-w {
+    min-width: 120px;
+}
+
+// toast css
+.CToast {
+    .Vue-Toastification__toast {
+        padding: 20px 24px;
+        min-height: 50px;
+    }
+}
+
+
+.model_box {
+    border-left: solid 1px #eeeeee;
+    color: #fd6102;
+    font-size: 13px;
+}
+
+.logout {
+    border-left: solid 1px #eeeeee;
+    padding: 11px 18px;
+    display: inline-block;
+    top: -2px;
+    position: relative;
+
+    svg {
+        fill: $primary;
+    }
+}

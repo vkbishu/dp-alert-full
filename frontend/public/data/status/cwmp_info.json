@@ -1,0 +1,9 @@
+{
+    "status": 1,
+    "message": "",
+    "data": {
+        "proactive_reporting_status": "Unreported (No ACS configuration parameters)",
+        "accepting_itms_connection_status": "No received remote connection request",
+        "business_config_status": "Business configuration success"
+    }
+}

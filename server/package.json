@@ -1,0 +1,35 @@
+{
+  "name": "drop-price-alert",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "watch": "nodemon --ignore public"
+  },
+  "dependencies": {
+    "@ladjs/graceful": "^1.1.4",
+    "axios": "^0.24.0",
+    "axios-retry": "^3.2.4",
+    "bcrypt": "^5.0.1",
+    "bree": "^7.1.5",
+    "cabin": "^9.1.0",
+    "cheerio": "^1.0.0-rc.10",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^10.0.0",
+    "email-templates": "^8.0.8",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "~1.9.1",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.7.2",
+    "sequelize": "^6.12.4",
+    "signale": "^1.4.0",
+    "validatorjs": "^3.22.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

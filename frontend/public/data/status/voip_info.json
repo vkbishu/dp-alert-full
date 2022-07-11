@@ -1,0 +1,14 @@
+{
+    "status": 1,
+    "message": "",
+    "data": {
+        "name": "Line1",
+        "register_server": "--",
+        "register_server_port": "3000",
+        "secondary_register_server": "--",
+        "secondary_register_server_port": "5000",
+        "telephone_number": "--",
+        "registration_status": "--",
+        "subscriber_line_state": "--"
+    }
+}
